@@ -1,0 +1,24 @@
+{
+	"name": "nPing",
+	"description": "Ping hosts to find the fastest one",
+	"version": "0.0.1",
+	"license": "MIT",
+	"tags": [
+		"ping"
+	],
+	"author": "najaying <najaying@gmail.com>",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ngjaying/node-ping.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ngjaying/node-ping/issues"
+	},
+	"engines": {
+		"node": "~0.10.x"
+	},
+	"scripts": {
+		"test": "node tests/test-ns.js"
+	}
+}
