@@ -20,5 +20,8 @@
 	},
 	"scripts": {
 		"test": "node tests/test-ns.js"
+	},
+	"dependencies" : { 
+		"net-ping" : ">1.0.0"
 	}
 }
